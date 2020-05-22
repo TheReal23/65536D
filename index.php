@@ -30,7 +30,7 @@ if(isset($_SESSION['user'])){$user=$_SESSION['user'];} else {$user=NULL;}
   <pre id="scoreboard"></pre>
   <div class="container">
     <div class="heading">
-      <!--<h1 class="title">65536D</h1>-->
+      <h1 class="title">65536D</h1>
       <div class="scores-container">
         <div class="score-container">0</div>
         <div class="best-container">0</div>
@@ -49,7 +49,7 @@ if(isset($_SESSION['user'])){$user=$_SESSION['user'];} else {$user=NULL;}
       </div>
 
     </div>
-    <!--<p class="game-intro">Join the numbers and get to the <strong>65536 tile!</strong></p>-->
+    <p class="game-intro">Join the numbers and get to the <strong>65536 tile!</strong></p>
     <p>
       Your username:
       <a href="#" onclick="javascript:set_user()">
@@ -82,7 +82,6 @@ if(isset($_SESSION['user'])){$user=$_SESSION['user'];} else {$user=NULL;}
           <div class="grid-cell"></div>
           <div class="grid-cell"></div>
           <div class="grid-cell"></div>
-
           <div class="grid-cell"></div>
         </div>
         <div class="grid-row">
@@ -102,7 +101,6 @@ if(isset($_SESSION['user'])){$user=$_SESSION['user'];} else {$user=NULL;}
           <div class="grid-cell"></div>
           <div class="grid-cell"></div>
           <div class="grid-cell"></div>
-
           <div class="grid-cell"></div>
         </div>
       </div>
@@ -111,18 +109,16 @@ if(isset($_SESSION['user'])){$user=$_SESSION['user'];} else {$user=NULL;}
 
       </div>
     </div>
-<!--
     <p class="game-explanation">
 
       <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong>
     </p>
     <hr>
     <p>
-    Created by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a> Based on <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> and conceptually similar to <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a>
+    Forked by <a href="github.com/thereal23">TheReal23.</a> Created by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a> Based on <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> and conceptually similar to <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a>
 
     </p>
   </div>
--->
   <script src="script.js"></script>
 
 </body>
